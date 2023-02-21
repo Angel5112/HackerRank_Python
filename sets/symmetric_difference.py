@@ -19,8 +19,9 @@ def print_symmetric_difference(s_diff):
 
 if __name__ == '__main__':
     M = int(input())
-    set_M = list(map(int, input().split()))
+    set_M = set(list(map(int, input().split())))
     N = int(input())
-    set_N = list(map(int, input().split()))
+    set_N = set(list(map(int, input().split())))
     s_difference = symmetric_difference(set_M, set_N)
+    print_symmetric_difference(s_difference)
     
