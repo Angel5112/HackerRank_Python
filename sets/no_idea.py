@@ -14,7 +14,7 @@ def happiness(arr, set_a, set_b):
 
 
 if __name__ == '__main__':
-    n, m = int(input().split())
+    n, m = map(int, input().split())
     arr = list(map(int, input().split()))
     set_a = set(list(map(int, input().split())))
     set_b = set(list(map(int, input().split())))
