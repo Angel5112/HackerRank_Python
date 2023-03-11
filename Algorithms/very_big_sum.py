@@ -13,7 +13,7 @@ def aVeryBigSum(ar):
     for num in ar:
         sum += num
 
-    return num
+    return sum
 
 
 
