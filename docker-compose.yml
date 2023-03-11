@@ -1,0 +1,7 @@
+services:
+  hackerrank:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - .:/hackerrank_python
