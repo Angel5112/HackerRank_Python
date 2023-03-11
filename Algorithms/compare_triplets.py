@@ -34,7 +34,6 @@ def compareTriplets(a, b):
     size = len(a)
     alice = 0
     bob = 0
-    comparison_point = []
 
     for i in range(size):
         if a[i] > b[i]:
@@ -42,10 +41,8 @@ def compareTriplets(a, b):
         elif a[i] < b[i]:
             bob += 1
 
-    comparison_point.append(alice)
-    comparison_point.append(bob)
-
-    return comparison_point
+    result = str(alice) + ' ' + str(bob)
+    return result
 
 
 
