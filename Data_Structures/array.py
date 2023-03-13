@@ -20,7 +20,7 @@ def reverseArray(a):
     new_array = []
 
     for i in range(len(a) - 1, -1, -1):
-        new_array.append(i)
+        new_array.append(a[i])
 
     return new_array
 
