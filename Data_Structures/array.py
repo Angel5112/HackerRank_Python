@@ -17,12 +17,12 @@ import sys
 
 def reverseArray(a):
     # Write your code here
-    new_array = []
+    new_array = ''
 
     for i in range(len(a) - 1, -1, -1):
-        new_array.append(a[i])
+        new_array += str(a[i]) + ' '
 
-    return new_array
+    return new_array.rstrip()
 
 
 
